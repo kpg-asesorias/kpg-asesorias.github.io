@@ -1,18 +1,30 @@
 /* KpG · Contadores y Asesores — hoja de estilos del sitio */
 
-@font-face { font-family: "Inter"; font-style: normal; font-display: swap; font-weight: 100 900;
-  src: url(fuentes/inter-latin-wght-normal.woff2) format("woff2");
+/* Títulos: Libre Caslon Text (normal, cursiva y negrita). Texto: Archivo (variable en peso y ancho). Ambas con licencia OFL. */
+@font-face { font-family: "Libre Caslon Text"; font-style: normal; font-display: swap; font-weight: 400;
+  src: url(fuentes/libre-caslon-text-latin-400-normal.woff2) format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
-@font-face { font-family: "Inter"; font-style: normal; font-display: swap; font-weight: 100 900;
-  src: url(fuentes/inter-latin-ext-wght-normal.woff2) format("woff2");
-  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
-@font-face { font-family: "Source Serif 4"; font-style: normal; font-display: swap; font-weight: 200 900;
-  src: url(fuentes/source-serif-4-latin-wght-normal.woff2) format("woff2");
+@font-face { font-family: "Libre Caslon Text"; font-style: italic; font-display: swap; font-weight: 400;
+  src: url(fuentes/libre-caslon-text-latin-400-italic.woff2) format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
-@font-face { font-family: "Source Serif 4"; font-style: normal; font-display: swap; font-weight: 200 900;
-  src: url(fuentes/source-serif-4-latin-ext-wght-normal.woff2) format("woff2");
+@font-face { font-family: "Libre Caslon Text"; font-style: normal; font-display: swap; font-weight: 700;
+  src: url(fuentes/libre-caslon-text-latin-700-normal.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "Archivo"; font-style: normal; font-display: swap; font-weight: 100 900; font-stretch: 62% 125%;
+  src: url(fuentes/archivo-latin-wdth-normal.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "Libre Caslon Text"; font-style: normal; font-display: swap; font-weight: 400;
+  src: url(fuentes/libre-caslon-text-latin-ext-400-normal.woff2) format("woff2");
   unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
-
+@font-face { font-family: "Libre Caslon Text"; font-style: italic; font-display: swap; font-weight: 400;
+  src: url(fuentes/libre-caslon-text-latin-ext-400-italic.woff2) format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: "Libre Caslon Text"; font-style: normal; font-display: swap; font-weight: 700;
+  src: url(fuentes/libre-caslon-text-latin-ext-700-normal.woff2) format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: "Archivo"; font-style: normal; font-display: swap; font-weight: 100 900; font-stretch: 62% 125%;
+  src: url(fuentes/archivo-latin-ext-wdth-normal.woff2) format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
 :root {
   --azul: #0E2A47;
   --azul-2: #143657;
@@ -35,8 +47,8 @@
   --radio-chico: 12px;
   --sombra: 0 1px 2px rgba(14,42,71,.06), 0 12px 32px -18px rgba(14,42,71,.28);
   --sombra-alta: 0 2px 4px rgba(14,42,71,.06), 0 30px 60px -28px rgba(14,42,71,.40);
-  --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
-  --sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --serif: "Libre Caslon Text", Georgia, "Times New Roman", serif;
+  --sans: "Archivo", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --ancho: 1240px;
 }
 
@@ -48,7 +60,7 @@ img, svg { display: block; max-width: 100%; }
 main { overflow-x: hidden; overflow-x: clip; }
 a { color: inherit; }
 p { margin: 0; }
-h1, h2, h3, h4 { margin: 0; font-family: var(--serif); font-weight: 600; color: var(--azul); letter-spacing: -.015em; }
+h1, h2, h3, h4 { margin: 0; font-family: var(--serif); font-weight: 400; color: var(--azul); letter-spacing: -.01em; }
 ul, ol { margin: 0; padding: 0; }
 button { font: inherit; }
 a:focus-visible, button:focus-visible, summary:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 2px solid var(--dorado); outline-offset: 3px; }
@@ -159,8 +171,8 @@ a:focus-visible, button:focus-visible, summary:focus-visible, input:focus-visibl
 .heroe .contenedor { position: relative; z-index: 1; display: grid; gap: 44px; padding-top: 60px; padding-bottom: 150px; align-items: center; }
 .etiqueta-heroe { display: inline-flex; align-items: center; gap: 9px; padding: 7px 14px 7px 10px; border-radius: 999px; background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.14); font-size: 13.5px; color: #DCE6F0; }
 .etiqueta-heroe .punto { width: 8px; height: 8px; border-radius: 50%; background: var(--verde-brillo); box-shadow: 0 0 0 4px rgba(79,179,148,.2); }
-.heroe h1 { margin-top: 22px; color: #fff; font-size: clamp(42px, 8.6vw, 78px); line-height: 1.01; letter-spacing: -.024em; font-variation-settings: "opsz" 60; }
-.heroe h1 em { font-style: normal; color: var(--dorado-claro); }
+.heroe h1 { margin-top: 22px; color: #fff; font-size: clamp(42px, 8.6vw, 78px); line-height: 1.07; letter-spacing: -.015em; }
+.heroe h1 em { font-style: italic; color: var(--dorado-claro); }
 .heroe .bajada { margin-top: 24px; font-size: clamp(17px, 2.1vw, 20px); line-height: 1.55; color: #D2DCE7; max-width: 33em; }
 .heroe .botones { margin-top: 32px; display: flex; flex-wrap: wrap; gap: 12px; }
 .heroe .sellos { margin-top: 34px; display: flex; flex-wrap: wrap; gap: 10px; list-style: none; }
@@ -331,8 +343,8 @@ a.chip:hover { background: var(--verde-claro); }
 /* Lema */
 .lema { padding: 100px 0 92px; text-align: center; background: var(--blanco); position: relative; }
 .lema .antes { color: var(--suave); font-size: clamp(17px, 2.1vw, 21px); }
-.lema .frase { margin-top: 14px; font-family: var(--serif); font-weight: 600; color: var(--azul); font-size: clamp(44px, 8.4vw, 86px); line-height: 1; letter-spacing: -.025em; }
-.lema .frase em { font-style: normal; color: var(--verde); }
+.lema .frase { margin-top: 14px; font-family: var(--serif); font-weight: 400; color: var(--azul); font-size: clamp(44px, 8.4vw, 86px); line-height: 1.06; letter-spacing: -.015em; }
+.lema .frase em { font-style: italic; color: var(--verde); }
 .lema .raya { margin: 30px auto 0; width: 76px; }
 
 /* Preguntas */
